@@ -1,0 +1,25 @@
+{
+  "name": "shoestore-mern-server",
+  "version": "1.0.0",
+  "description": "MERN backend migrated from ShoeStoreManagement (Blazor .NET 8 / EF Core / SQL Server)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seed.js",
+    "seed:demo": "node seedDemo.js",
+    "migrate": "node migrate.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express-async-errors": "^3.1.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
